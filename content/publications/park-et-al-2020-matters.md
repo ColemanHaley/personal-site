@@ -12,7 +12,7 @@ author:
    given: Han
  - family: Schwartz
    given: Lane
-pubdate: '2020-12-12'
+pubdate: '2021-02-01'
 title: 'Morphology Matters: A Multilingual Language Modeling Analysis'
 venue: Transactions of the Association for Computational Linguistics
 links:
