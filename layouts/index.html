@@ -1,12 +1,12 @@
 {{ define "styles" }}
-    {{ $style := resources.Get "css/home.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
-	<link rel="stylesheet" href="{{ $style.Permalink }}">
+{{ $style := resources.Get "css/home.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
 {{ end }}
 {{ define "main" }}
-<div class="headshot"><img  src="/img/headshot2020.jpg" alt="Headshot of Coleman"></div>
-	<div id="bio">
-		<div id="bio-text">
-		{{ .Content }}
-		</div>
-	</div>
+<div class="headshot"><img src="/img/headshot2024.jpg" alt="Headshot of Coleman"></div>
+<div id="bio">
+  <div id="bio-text">
+    {{ .Content }}
+  </div>
+</div>
 {{ end }}
