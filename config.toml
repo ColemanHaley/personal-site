@@ -3,37 +3,37 @@ languageCode = "en-us"
 title = "Coleman Haley"
 
 [params]
-	cutoff = 30
-	author = "Coleman Haley"
+cutoff = 30
+author = "Coleman Haley"
 
 # MENU CONTENTS
 [menu]
-	[[menu.main]]
-		identifier ="homepage"
-		name = "C. Haley"
-		url = "/"
-		weight = 2
-		[menu.main.params]
-			activename = "Home"
-	[[menu.main]]
-		identifier ="publications"
-		name = "Publications"
-		url = "/publications/"
-		weight = 2
-	[[menu.main]]
-		name = "Curriculum Vitae"
-		url = "/documents/coleman_cv.pdf"
-		weight = 3
-	[[menu.main]]
-		identifier ="blog"
-		name = "Blog"
-		url = "/blog/"
-		weight = 4
-	[[menu.main]]
-		name = "Twitter"
-		url = "https://twitter.com/ColemanHaley22"
-		weight = 4
-	[[menu.main]]
-		name = "Github"
-		url = "https://github.com/ColemanHaley"
-		weight = 5
+[[menu.main]]
+identifier = "homepage"
+name = "C. Haley"
+url = "/"
+weight = 2
+[menu.main.params]
+activename = "Home"
+[[menu.main]]
+identifier = "publications"
+name = "Publications"
+url = "/publications/"
+weight = 2
+[[menu.main]]
+name = "Curriculum Vitae"
+url = "/documents/coleman_cv.pdf"
+weight = 3
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 4
+[[menu.main]]
+name = "Bsky"
+url = "https://bsky.app/profile/colemanhaley.bsky.social"
+weight = 4
+[[menu.main]]
+name = "Github"
+url = "https://github.com/ColemanHaley"
+weight = 5

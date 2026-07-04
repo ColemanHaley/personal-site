@@ -22,6 +22,8 @@ hugo --buildFuture # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 cd public
 
+git checkout master
+
 
 
 # Add changes to git.
